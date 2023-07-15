@@ -1,0 +1,247 @@
+body {
+    background-color: #faf7ee;
+    padding: 0px;
+    margin: 0px;
+    font-family: ArminGrotesk, ArminGroteskBlack, ArminGroteskSemiBold, sans-serif;
+}
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    letter-spacing: .1em;
+}
+
+#nav {
+    padding-right: 7px;
+    margin-left: -50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 18px;
+    font-weight: 700;
+    color: #10284b;
+}
+
+.nav2 {
+    margin-left: -20px;
+}
+
+.navbar a:hover {
+    transition-delay: 0.2s;
+    color: #5740e2;
+}
+
+aside {
+    font-weight: 700;
+    margin-left: 70px;
+    font-size: 13px;
+}
+
+#btn {
+    background-color: #381fd1;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 19px;
+    padding-left: 19px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: #523ce0;
+}
+
+.main-section {
+    display: grid;
+    grid-template-areas:
+        'content content main-img'
+        'content content main-img';
+
+    z-index: 0;
+    /* border: 2px solid purple; */
+}
+
+.main-img {
+    /* border: 2px solid black; */
+    grid-area: main-img;
+    z-index: 20;
+    margin-left: 700px;
+    position: absolute;
+
+}
+
+.content {
+    /* border: 2px solid green; */
+    grid-area: content;
+    width: 800px;
+    height: 600px;
+    display: grid;
+}
+
+.con1 {
+    /* border: 2px solid magenta; */
+    color: #381fd1;
+
+}
+
+.con2 {
+    /* border: 2px solid yellowgreen; */
+    font-size: 5.375rem;
+    letter-spacing: -0.07em;
+    line-height: 96px;
+    font-weight: 900;
+    color: #10284b;
+    padding-left: 85px;
+    margin-top: 40px;
+}
+
+.con3 {
+    /* border: 2px solid sienna; */
+    color: #4b4b4e;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 30px;
+    padding-left: 90px;
+    padding-right: 85px;
+
+
+}
+
+.btn2 {
+    /* border: 2px solid pink; */
+    margin-left: 90px;
+
+}
+
+.sub {
+    font-family: RobotoMono, sans-serif;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 140%;
+    /* border: 2px solid firebrick; */
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 91px;
+
+}
+
+#btn2_1 {
+    background-color: #381fd1;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 12px 22px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#btn2_2 {
+    font-size: 15px;
+    background-color: #faf7ee;
+    border-radius: 4px;
+    color: #10284b;
+    font-weight: 700;
+    padding: 10px 22px;
+}
+
+#btn2_2:hover {
+    cursor: pointer;
+    background-color: #10284b;
+    color: white;
+
+}
+
+#btn2_1:hover {
+    cursor: pointer;
+    background-color: #523ce0
+}
+
+.main {
+    height: 200px;
+    /* border: 2px solid blue; */
+}
+
+.curve {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-left: 380px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -100px;
+    margin-left: 440px;
+    opacity: 0.4;
+}
+
+.page_2 {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page_2_con1 {
+    /* border: 2px solid blue; */
+    padding: 10px;
+    color: #381fd1;
+    font-family: RobotoMono, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+}
+
+#page_2_con2 {
+    /* border: 2px solid magenta; */
+    padding: 10px;
+    color: #10284b;
+    font-size: 3rem;
+    letter-spacing: -.01em;
+    line-height: 53px;
+    font-weight: 900;
+}
+
+#page_2_con3 {
+    padding: 10px;
+    color: #4b4b4e;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+.page_3{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#bg_img{
+    background-size: cover;
+   width: 1000px;
+   height: 650px;
+   border-radius: 1000px;
+   
+}
+#images{
+    max-width: 940px;
+    position: absolute;
+    margin-bottom: 20px;
+}
